@@ -22,7 +22,10 @@ public class Response<T> {
 	public List<String> getErrors() {
 		if (this.errors == null) {
 			this.errors = new ArrayList<String>();
+			System.out.println("Não houve nenhum erro - Lsit = null");
 		}
+		 
+		System.out.println("Foi gerada uma lista de erros");
 		return errors;
 	}
 
