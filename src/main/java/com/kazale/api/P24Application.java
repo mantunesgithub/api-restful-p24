@@ -1,0 +1,12 @@
+package com.kazale.api;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+//anotation
+@SpringBootApplication
+public class P24Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(P24Application.class, args);
+	}
+}
